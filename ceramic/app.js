@@ -1,4 +1,55 @@
 $(document).ready(function() {
+
+'use strict';
+
+// zoom in image
+
+
+$('.white-panel').click(function(){
+
+
+});
+
+
+  // define variables
+//   var items = document.querySelectorAll(".timeline li");
+
+//   var pdfViewer = new wijmo.viewer.PdfViewer('#pdfViewer', {
+//   serviceUrl: 'http://demo.grapecity.com/c1/aspnet/c1webapi/4.0.20172.105/api/pdf/',
+//   filePath: 'PdfRoot/従業員別売上.pdf',
+//   zoomMode: wijmo.viewer.ZoomMode.PageWidth,
+//   thresholdWidth: 0
+// });
+
+// document.form.thresholdWidth.addEventListener('click', function (e) {
+//   pdfViewer.thresholdWidth = e.target.checked ? 9999 : 0;
+// });
+
+  // check if an element is in viewport
+  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
+      }
+    }
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+
 $('#pinBoot').pinterest_grid({
 no_columns: 4,
 padding_x: 10,
