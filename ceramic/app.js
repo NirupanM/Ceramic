@@ -112,7 +112,7 @@ http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Styl
             clearTimeout(resize_finish);
             resize_finish = setTimeout( function () {
                 self.make_layout_change(self);
-            }, 11);
+            }, 0);
         });
 
         self.make_layout_change(self);
