@@ -34,232 +34,81 @@ console.log(d.getElementsByClassName('payzard'));
       <a class="navbar-brand" href="#">
       <div class="">
       <img id="img-logo" src="ceramicphotos/logoc.jpg" class="nav-title">
-
+      <!-- <div>Ceramic Collection</div> -->
       </div>
       </a>
     </div>
     <ul id="web-nav" class="nav navbar-nav">
-      <li ><a  id="ceramics" >Ceramic Collection</a></li>
-      <li><a id="womens">Cart to Payment</a></li>
+      <li id="logo-title" ><a  id="ceramics" >Ceramic Collection</a></li>
+<!--       <li><a id="womens">Cart to Payment</a></li> -->
 <!--       <li><a id="scarves">Collection 3</a></li>
       <li><a id="mens">Collection 4</a></li>
- -->    </ul>
+ -->    
+<li><img id="img-cart" src="ceramicphotos/cartshop.png"></li>
+ </ul>
 
   </div>
 
 </nav>
 
-<div class="nav-side-menu">
-    <!-- <div class="brand">Brand Logo</div>
-    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i> -->
-  
-        <div class="menu-list">
-  
-            <ul id="menu-content" class="menu-content collapse out">
-                <!-- <li>
-                  <a href="#">
-                  <i class="fa fa-dashboard fa-lg"></i> Dashboard
-                  </a>
-                </li> -->
-
-                <li  data-toggle="collapse"  class="collapsed active">
-
-                  <a href="#"><i class="fa fa-gift fa-lg"></i> All Collections <!-- <span class="arrow"></span> --></a>
-                </li>
-<!--                 <ul class="sub-menu collapse" id="products">
-                    <li class="active"><a href="#">CSS3 Animation</a></li>
-                    <li><a href="#">General</a></li>
-                    <li><a href="#">Buttons</a></li>
-                    <li><a href="#">Tabs & Accordions</a></li>
-                    <li><a href="#">Typography</a></li>
-                    <li><a href="#">FontAwesome</a></li>
-                    <li><a href="#">Slider</a></li>
-                    <li><a href="#">Panels</a></li>
-                    <li><a href="#">Widgets</a></li>
-                    <li><a href="#">Bootstrap Model</a></li>
-                </ul> -->
 
 
-                <li data-toggle="collapse"  class="collapsed">
-                  <a href="#"><i class="fa fa-globe fa-lg"></i> Cups <!-- <span class="arrow"></span> --></a>
-                </li>  
-<!--                 <ul class="sub-menu collapse" id="service">
-                  <li>New Service 1</li>
-                  <li>New Service 2</li>
-                  <li>New Service 3</li>
-                </ul>
- -->
+<nav id="filter-menu" class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
 
-                <li data-toggle="collapse"  class="collapsed">
-                  <a href="#"><i class="fa fa-car fa-lg"></i> Pots <!-- <span class="arrow"></span> --></a>
-                </li>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
 
-                                <li data-toggle="collapse"  class="collapsed">
-                  <a href="#"><i class="fa fa-car fa-lg"></i> Plates <!-- <span class="arrow"></span> --></a>
-                </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">All Collections <!-- <b class="caret"></b> --></a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav">
 
-                                <li data-toggle="collapse" data-target="#new" class="collapsed">
-                  <a href="#"><i class="fa fa-car fa-lg"></i> Dolls <!-- <span class="arrow"></span> --></a>
-                </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cups <!-- <b class="caret"></b> --></a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pots <!-- <b class="caret"></b> --></a>
+          </li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plates <!-- <b class="caret"></b> --></a>
+          </li>
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dolls <!-- <b class="caret"></b> --></a>
+          </li>
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Birds <!-- <b class="caret"></b> --></a>
+          </li>
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hand <!-- <b class="caret"></b> --></a>
+          </li>
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Necklace <!-- <b class="caret"></b> --></a>
+          </li>
+                    <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Custom <!-- <b class="caret"></b> --></a>
+          </li>
 
-                                <li data-toggle="collapse" data-target="#new" class="collapsed">
-                  <a href="#"><i class="fa fa-car fa-lg"></i> Birds <!-- <span class="arrow"></span> --></a>
-                </li>
-
-                                <li data-toggle="collapse" data-target="#new" class="collapsed">
-                  <a href="#"><i class="fa fa-car fa-lg"></i> Hand <!-- <span class="arrow"></span> --></a>
-                </li>
-
-                                <li data-toggle="collapse" data-target="#new" class="collapsed">
-                  <a href="#"><i class="fa fa-car fa-lg"></i> Necklace <!-- <span class="arrow"></span> --></a>
-                </li>
-
-                                <li data-toggle="collapse" data-target="#new" class="collapsed">
-                  <a href="#"><i class="fa fa-car fa-lg"></i> Custom <!-- <span class="arrow"></span> --></a>
-                </li>
-<!--                 <ul class="sub-menu collapse" id="new">
-                  <li>New New 1</li>
-                  <li>New New 2</li>
-                  <li>New New 3</li>
-                </ul>
- -->
-
-<!--                  <li>
-                  <a href="#">
-                  <i class="fa fa-user fa-lg"></i> Profile
-                  </a>
-                  </li>
-
-                 <li>
-                  <a href="#">
-                  <i class="fa fa-users fa-lg"></i> Users
-                  </a>
-                </li> -->
-            </ul>
-     </div>
-</div>
-
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 <div class="payzard"></div>
 
 <div class="container">
 
-<div id="carousel-example-generic2" class="carousel slide " data-ride="carousel">
-        
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="9"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="10"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="11"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="12"></li>
 
-            </ol>
-
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="ceramicphotos/pic1.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #1</h2>
-                </div>
-              </div>
-              <div class="item">
-                <img src="ceramicphotos/pic2.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #2</h2>
-                </div>
-              </div>
-              <div class="item">
-                <img src="ceramicphotos/pic3.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #3</h2>
-                </div>
-              </div>
-                            <div class="item">
-                <img src="ceramicphotos/pic4.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #4</h2>
-                </div>
-              </div>
-
-                            <div class="item">
-                <img src="ceramicphotos/pic5.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #5</h2>
-                </div>
-              </div>
-
-                            <div class="item">
-                <img src="ceramicphotos/pic6.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #6</h2>
-                </div>
-              </div>
-
-                            <div class="item">
-                <img src="ceramicphotos/pic7.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #7</h2>
-                </div>
-              </div>
-
-                            <div class="item">
-                <img src="ceramicphotos/pic8.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #8</h2>
-                </div>
-              </div>
-
-                            <div class="item">
-                <img src="ceramicphotos/pic9.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #9</h2>
-                </div>
-              </div>
-
-                            <div class="item">
-                <img src="ceramicphotos/pic10.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #10</h2>
-                </div>
-              </div>
-
-                            <div class="item">
-                <img src="ceramicphotos/pic11.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #11</h2>
-                </div>
-              </div>
-
-                            <div class="item">
-                <img src="ceramicphotos/pic12.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #12</h2>
-                </div>
-              </div>
-
-                            <div class="item">
-                <img src="ceramicphotos/pic13.jpg" class="carousel-images" alt="...">
-                <div class="carousel-caption">
-                  <h2>Product #13</h2>
-                </div>
-              </div>
-
-            </div>
-
-            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-          </div>
   
 
  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -373,10 +222,10 @@ console.log(d.getElementsByClassName('payzard'));
             </div>
 
             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span id="left-arrow" class="glyphicon glyphicon-chevron-left"></span>
             </a>
             <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span id="right-arrow" class="glyphicon glyphicon-chevron-right"></span>
             </a>
           </div>
 
@@ -384,24 +233,702 @@ console.log(d.getElementsByClassName('payzard'));
 
 </br>
 
+<div class="modal fade product_view" id="quick_view_1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #1</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic1.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>1</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_2">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #2</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic2.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>2</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_3">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #1</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic3.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>3</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_4">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #4</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic4.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>4</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_5">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #5</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic5.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>5</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_6">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #6</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic6.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>6</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_7">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #7</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic7.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>7</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_8">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #8</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic8.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>8</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_9">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #9</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic9.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>1</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_10">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #10</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic10.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>10</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_11">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #11</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic11.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>11</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_12">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #12</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic12.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>12</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="quick_view_13">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Product #13</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="ceramicphotos/pic13.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Id: <span>13</span></h4>
+                        
+                        <p>Product Description</p>
+                        <!-- <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Sizes</option>
+                                    <option value="">4x6</option>
+                                    <option value="">4x7</option>
+                                    <option value="">5x8</option>
+                                    <option value="">6x10</option>
+                                </select>
+                            </div>
+
+                        </div> -->
+                        <div class="space-ten"></div>
+                        <!-- <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--     <hr> -->
 
 
     <section id="pinBoot">
 
-    <a target="_blank" href="detailpage/detailpage1.html" class="white-panel"><img src="ceramicphotos/pic1.jpg" class="img-br" alt=""></a>
-        <a target="_blank" href="detailpage/detailpage2.html" class="white-panel"><img src="ceramicphotos/pic2.jpg" class="img-br" alt=""></a>
-            <a target="_blank" href="detailpage/detailpage3.html" class="white-panel"><img src="ceramicphotos/pic3.jpg" class="img-br" alt=""></a>
-                <a target="_blank" href="detailpage/detailpage4.html" class="white-panel"><img src="ceramicphotos/pic4.jpg" class="img-br" alt=""></a>
-                    <a target="_blank" href="detailpage/detailpage5.html" class="white-panel"><img src="ceramicphotos/pic5.jpg" class="img-br" alt=""></a>
-                        <a target="_blank" href="detailpage/detailpage6.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic6.jpg" alt=""></a>
-                            <a target="_blank"  href="detailpage/detailpage7.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic7.jpg" alt=""></a>
-                                <a target="_blank" href="detailpage/detailpage8.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic8.jpg" alt=""></a>
-                                    <a target="_blank" href="detailpage/detailpage9.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic9.jpg" alt=""></a>
-                                        <a target="_blank" href="detailpage/detailpage10.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic10.jpg" alt=""></a>
-                                            <a target="_blank" href="detailpage/detailpage11.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic11.jpg" alt=""></a>
-                                                <a target="_blank" href="detailpage/detailpage12.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic12.jpg" alt=""></a>
-                                                    <a target="_blank" href="detailpage/detailpage13.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic13.jpg" alt=""></a>
+
+
+    <a id="prod-1" target="_blank" href="detailpage/detailpage1.html" class="white-panel"><img src="ceramicphotos/pic1.jpg" class="img-br" alt="">
+    <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+    </a>
+        <a id="prod-2" target="_blank" href="detailpage/detailpage2.html" class="white-panel"><img src="ceramicphotos/pic2.jpg" class="img-br" alt="">
+    <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+        </a>
+            <a id="prod-3" target="_blank" href="detailpage/detailpage3.html" class="white-panel"><img src="ceramicphotos/pic3.jpg" class="img-br" alt="">
+                      <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+            </a>
+                <a id="prod-4" target="_blank" href="detailpage/detailpage4.html" class="white-panel"><img src="ceramicphotos/pic4.jpg" class="img-br" alt="">
+                          <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+                </a>
+                    <a id="prod-5" target="_blank" href="detailpage/detailpage5.html" class="white-panel"><img src="ceramicphotos/pic5.jpg" class="img-br" alt="">
+                              <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+                    </a>
+                        <a id="prod-6" target="_blank" href="detailpage/detailpage6.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic6.jpg" alt="">
+                                  <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+                        </a>
+                            <a id="prod-7" target="_blank"  href="detailpage/detailpage7.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic7.jpg" alt="">
+                                      <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+                                      <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+                            </a>
+                                <a id="prod-8" target="_blank" href="detailpage/detailpage8.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic8.jpg" alt="">
+                                          <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+                                </a>
+                                    <a id="prod-9" target="_blank" href="detailpage/detailpage9.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic9.jpg" alt="">
+                                              <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+                                    </a>
+                                        <a id="prod-10" target="_blank" href="detailpage/detailpage10.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic10.jpg" alt="">
+                                                  <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+                                        </a>
+                                            <a id="prod-11" target="_blank" href="detailpage/detailpage11.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic11.jpg" alt="">
+                                                      <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+                                            </a>
+                                                <a id="prod-12" target="_blank" href="detailpage/detailpage12.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic12.jpg" alt="">
+                                                          <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+                                                </a>
+                                                    <a id="prod-13" target="_blank" href="detailpage/detailpage13.html" class="white-panel"><img class="img-br" src="ceramicphotos/pic13.jpg" alt="">
+                                                              <img src="ceramicphotos/icon.svg" class="img-ant" alt>
+    <img class="img-ant img-cart" src="ceramicphotos/cart2.jpg">
+                                                    </a>
 
 <!--       <article class="white-panel"><img src="ceramicphotos/pic1.jpg" alt="">
         <h4><a href="#">Title 1</a></h4>

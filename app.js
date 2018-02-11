@@ -5,10 +5,67 @@ $(document).ready(function() {
 // zoom in image
 
 
-$('.white-panel').click(function(){
+// $('.white-panel').click(function(){
 
 
+// });
+
+
+$("#prod-1").on("mouseover", function () {
+
+    // $('#quick_view_1').modal('show');
 });
+$("#prod-2").on("mouseover", function () {
+
+    // $('#quick_view_2').modal('show');
+});
+$("#prod-3").on("mouseover", function () {
+
+    // $('#quick_view_3').modal('show');
+});
+$("#prod-4").on("mouseover", function () {
+
+    // $('#quick_view_4').modal('show');
+});
+$("#prod-5").on("mouseover", function () {
+
+    // $('#quick_view_5').modal('show');
+});
+$("#prod-6").on("mouseover", function () {
+
+    // $('#quick_view_6').modal('show');
+});
+$("#prod-7").on("mouseover", function () {
+
+    // $('#quick_view_7').modal('show');
+});
+$("#prod-8").on("mouseover", function () {
+
+    // $('#quick_view_8').modal('show');
+});
+$("#prod-9").on("mouseover", function () {
+
+    // $('#quick_view_9').modal('show');
+});
+$("#prod-10").on("mouseover", function () {
+
+    // $('#quick_view_10').modal('show');
+});
+$("#prod-11").on("mouseover", function () {
+
+    // $('#quick_view_11').modal('show');
+});
+$("#prod-12").on("mouseover", function () {
+
+    // $('#quick_view_12').modal('show');
+});
+$("#prod-13").on("mouseover", function () {
+
+    // $('#quick_view_13').modal('show');
+});
+
+
+
 
 
   // define variables
