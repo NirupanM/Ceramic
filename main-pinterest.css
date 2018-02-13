@@ -28,7 +28,7 @@ width: 12%;
 #img-cart{
   width: 5%;
     /* float: right; */
-        margin-left: 245%;
+        margin-left: 240%;
     margin-top: -13%;
 }
 
@@ -170,10 +170,47 @@ margin-right:  -50%;
 }
 
 .img-ant{
-  width:13%;
-/*  margin-left: 7%;*/
+  width:15%;
+  z-index: 100;
+/*  margin-top:-65%;*/
+  margin-left: 25%;
+}
+
+.span-img{
+  
 }
 
 .img-cart{
-  float: right;
+/*  float: right;*/
+}
+
+
+.recommended_h2{
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+  }
+
+#cart-add{
+  width: 20%;
+  margin-top: 5%;
+/*  margin-left: 106%;
+    width: 92%;
+    margin-top: -113%;*/
+}  
+
+#customize{
+width: 20%;
+    height: 48px;
+    margin-top: 5%;
+    /* font-weight: bolder; */
+    font-size: medium;
+    font-family: "Times New Roman";
+}  
+
+#quantity-group{
+margin-top: 4%;
+}
+
+#dropdown-menu-scroll{
+  overflow-y: auto;
+    height: 109px;
 }

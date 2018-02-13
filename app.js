@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 $("#prod-1").on("mouseover", function () {
 
-    // $('#quick_view_1').modal('show');
+    $('#quick_view_1').modal('show');
 });
 $("#prod-2").on("mouseover", function () {
 
