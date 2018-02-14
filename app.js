@@ -351,7 +351,8 @@ $(".cart-section").click(function(){
 
 
 if(window.sessionStorage["itemscart"].length>0){
-    var url = "file:///C:/github/ceramic/checkout/checkout.html";
+    // var url = "file:///C:/github/ceramic/checkout/checkout.html";
+    var url = "https://nirupanm.github.io/Ceramic/checkout/checkout.html";
 window.location = url;
 window.location.replace (url);
     // history.pushState({}, "", "file:///C:/github/ceramic/");
