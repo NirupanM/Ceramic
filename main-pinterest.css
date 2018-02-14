@@ -26,7 +26,26 @@ width: 12%;
 }
 
 #img-cart{
-  width: 5%;
+  width: 8%;
+    /* float: right; */
+        margin-left: 240%;
+    margin-top: -10%;
+}
+
+#caption-count{
+margin-left: -30%;
+    margin-top: -77%;
+    font-size: x-large;
+    font-weight: bolder;
+    color: lightgrey;
+}
+
+.caption-count-realign{
+/*  margin-left: -109%;*/
+}
+
+#cart-count-title{
+  width: 8%;
     /* float: right; */
         margin-left: 240%;
     margin-top: -13%;
@@ -154,6 +173,7 @@ width: 115%;
 
   .img-br{
     border-radius: 7%;
+    cursor: pointer;
   }
 
 
@@ -174,6 +194,7 @@ margin-right:  -50%;
   z-index: 100;
 /*  margin-top:-65%;*/
   margin-left: 25%;
+  cursor: pointer;
 }
 
 .span-img{
@@ -214,3 +235,26 @@ margin-top: 4%;
   overflow-y: auto;
     height: 109px;
 }
+
+.cart-section{
+  cursor: pointer;
+}
+
+#shopping-title{
+  margin-top: -6%;
+    margin-left: 9%;
+    color: silver;
+    font-weight: 100;
+    font-size: -webkit-xxx-large;
+    font-family: "Stardos Stencil";
+}
+
+.checkout-img{
+width: 51%;
+    height: 47%;
+    margin-left: 23%;
+  }
+
+  .checkout-font-family{
+    font-family: "Verdana";
+  }
