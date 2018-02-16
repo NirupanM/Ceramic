@@ -443,8 +443,7 @@ only screen and (max-width: 760px),
 
 
   .checkout-img-test{
-    margin-left: -34%;
-    width: 144%;
+    margin-left: 8%;
   }
 
     .checkout-prod-image-title{
@@ -591,10 +590,5 @@ font-size: small;
      font-size: small;
       font-weight: 700;
     }
-
-    .checkout-close{
-margin-left: 76%;
-    margin-top: -421%;
-  }
 
 }
