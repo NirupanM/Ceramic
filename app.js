@@ -60,7 +60,7 @@ console.log(window.sessionStorage["itemscart"]);
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-1' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -81,7 +81,7 @@ console.log(window.sessionStorage["itemscart"]);
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-2' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -100,7 +100,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-3' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -119,7 +119,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-4' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -138,7 +138,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-5' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -158,7 +158,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-6' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     // var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
     // var prodImg = "<img src='../ceramicphotos/pic6.jpg' class='checkout-img' />";
     // var prdTitle = "<strong class='checkout-font-family'>Product #6</strong>";
@@ -184,7 +184,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-7' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -203,7 +203,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-8' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -222,7 +222,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-9' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -241,7 +241,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-10' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -260,7 +260,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-11' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -279,7 +279,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-12' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -298,7 +298,7 @@ var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout
     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
-    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    var prdRemove = "<button id='delete-cart-13' type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
@@ -362,6 +362,9 @@ window.sessionStorage["itemscart"] = items_cart;
 console.log(window.sessionStorage["itemscart"].length);
 //window.sessionStorage["clickedFlag"]=0;
 }
+
+
+
 
 
 $(".cart-section").click(function(){
@@ -739,6 +742,7 @@ items_cart.push("1");
 console.log(items_cart);
 window.sessionStorage["itemscart"] = items_cart;
 
+
 });
 
 $("#add-cart-2").click( function () {
@@ -856,6 +860,89 @@ items_cart.push("13");
 console.log(items_cart);
 window.sessionStorage["itemscart"] = items_cart;
 });
+
+
+
+$("#delete-cart-1").click( function () {
+//     var cartArray = window.sessionStorage["itemscart"];
+//     console.log(cartArray);
+
+//     if(cartArray.length==1){
+//         if (cartArray[0] == 1){
+//             cartArray = [];
+//         }
+//     }
+//     else{
+//     for (i = 0; i < cartArray.length; i++) {
+//   if (cartArray[i] == 1){
+
+//     for (var j = i+1; j < cartArray.length; j++) {
+//     cartArray[i] = cartArray[j];
+//     i = i + 1;
+//     }
+//     }  //updated
+// }
+//}
+    // var splitString = cartArray.split(",");
+    // console.log(splitString);
+    // cartArray = splitString;
+    //var index = cartArray.indexOf(1);
+    //if (cartArray.indexOf(1) > -1) {
+    //cartArray.splice(cartArray.indexOf(1), 1);
+    //}
+
+    //Array.prototype.splice(cartArray.indexOf(1),1);
+
+    // console.log(cartArray);
+    // window.sessionStorage["itemscart"] = cartArray;
+
+    // window.location.reload();
+
+});
+
+// $("#delete-cart-1").click( function () {
+
+// });
+
+// $("#delete-cart-1").click( function () {
+
+// });
+
+// $("#delete-cart-1").click( function () {
+
+// });
+
+// $("#delete-cart-1").click( function () {
+
+// });
+
+// $("#delete-cart-1").click( function () {
+
+// });
+
+// $("#delete-cart-1").click( function () {
+
+// });
+// $("#delete-cart-1").click( function () {
+
+// });
+// $("#delete-cart-1").click( function () {
+
+// });
+// $("#delete-cart-1").click( function () {
+
+// });
+// $("#delete-cart-1").click( function () {
+
+// });
+// $("#delete-cart-1").click( function () {
+
+// });
+// $("#delete-cart-1").click( function () {
+
+// });
+
+
 
 
 
