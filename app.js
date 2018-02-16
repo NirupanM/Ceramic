@@ -15,6 +15,19 @@ $(document).ready(function() {
 
     // window.sessionStorage["fieldval"] = field.value;
 
+$( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
+
+      var $target = $( event.currentTarget );
+
+      $target.closest( '.btn-group' )
+         .find( '[data-bind="label"]' ).text( $target.text() )
+            .end()
+         .children( '.dropdown-toggle' ).dropdown( 'toggle' );
+
+      return false;
+
+   });
+
 
 if(window.sessionStorage["clickedFlag"]){
 
@@ -707,6 +720,134 @@ console.log(items_cart);
 window.sessionStorage["itemscart"] = items_cart;
 });
 $("#cart-13-ok").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("13");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+
+
+$("#add-cart-1").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("1");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+
+});
+
+$("#add-cart-2").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("2");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+
+$("#add-cart-3").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("3");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+
+$("#add-cart-4").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("4");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+
+$("#add-cart-5").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("5");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+
+$("#add-cart-6").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("6");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+
+$("#add-cart-7").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("7");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+
+$("#add-cart-8").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("8");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+
+$("#add-cart-9").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("9");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+$("#add-cart-10").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("10");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+$("#add-cart-11").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("11");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+$("#add-cart-12").click( function () {
+
+count = count + 1;
+window.sessionStorage["count"] = count;
+document.getElementById("caption-count").innerHTML = count;
+items_cart.push("12");
+console.log(items_cart);
+window.sessionStorage["itemscart"] = items_cart;
+});
+$("#add-cart-13").click( function () {
 
 count = count + 1;
 window.sessionStorage["count"] = count;
