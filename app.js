@@ -42,14 +42,13 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic1.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #1</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    var prodImg = "<img src='../ceramicphotos/pic1.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #1</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
     if(cartArray[i]=="2")
@@ -62,14 +61,15 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic2.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #2</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    //var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
+    // var prodImg = "<img src='../ceramicphotos/pic1.jpg' class='checkout-img checkout-img-test' />";
+    var prodImg = "<img src='../ceramicphotos/pic2.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #2</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
         if(cartArray[i]=="3")
@@ -82,14 +82,13 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #3</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+var prodImg = "<img src='../ceramicphotos/pic3.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #3</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
         if(cartArray[i]=="4")
@@ -101,14 +100,14 @@ console.log(window.sessionStorage["itemscart"]);
         //  Index =  i-1;   
         // }
         Index = Index + 1;
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic4.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #4</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+            var table = $('table[name="checkout"]');
+    var prodImg = "<img src='../ceramicphotos/pic4.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #4</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
         if(cartArray[i]=="5")
@@ -121,14 +120,13 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic5.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #5</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    var prodImg = "<img src='../ceramicphotos/pic5.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #5</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
 
@@ -142,14 +140,20 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic6.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #6</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    var prodImg = "<img src='../ceramicphotos/pic6.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #6</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    // var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
+    // var prodImg = "<img src='../ceramicphotos/pic6.jpg' class='checkout-img' />";
+    // var prdTitle = "<strong class='checkout-font-family'>Product #6</strong>";
+    // var prdQty = "<strong class='checkout-font-family'>1</strong>";
+    // var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
+    // var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
+    // var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
     if(cartArray[i]=="7")
@@ -162,14 +166,13 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic7.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #7</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    var prodImg = "<img src='../ceramicphotos/pic7.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #7</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
     if(cartArray[i]=="8")
@@ -182,14 +185,13 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic8.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #8</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    var prodImg = "<img src='../ceramicphotos/pic8.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #8</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
     if(cartArray[i]=="9")
@@ -202,14 +204,13 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic9.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #9</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    var prodImg = "<img src='../ceramicphotos/pic9.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #9</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
     if(cartArray[i]=="10")
@@ -222,14 +223,13 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic10.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #10</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    var prodImg = "<img src='../ceramicphotos/pic10.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #10</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
     if(cartArray[i]=="11")
@@ -242,14 +242,13 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic11.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #11</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    var prodImg = "<img src='../ceramicphotos/pic11.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #11</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
     if(cartArray[i]=="12")
@@ -262,14 +261,13 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic12.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #12</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    var prodImg = "<img src='../ceramicphotos/pic12.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #12</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
     if(cartArray[i]=="13")
@@ -282,51 +280,57 @@ console.log(window.sessionStorage["itemscart"]);
         // }
         Index = Index + 1;
     var table = $('table[name="checkout"]');
-    var prodInd = "<strong class='checkout-font-family'>"+Index+".</strong>";
-    var prodImg = "<img src='../ceramicphotos/pic13.jpg' class='checkout-img' />";
-    var prdTitle = "<strong class='checkout-font-family'>Product #13</strong>";
-    var prdQty = "<strong class='checkout-font-family'>1</strong>";
-    var prdPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdTotalPrice = "<strong class='checkout-font-family'>$25</strong>";
-    var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    var prodImg = "<img src='../ceramicphotos/pic13.jpg' class='checkout-img checkout-img-test' />";
+    var prdTitle = "<div class='checkout-prod-image-title'>Product #13</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
     SubTotal = SubTotal + 25;
     }
     }
 
-    var table = $('table[name="checkout"]');
-        var prodInd = "";
-    var prodImg = "";
-    var prdTitle = "";
-    var prdQty = "";
-    var prdPrice = "<h4>SubTotal</h4>";
-    var prdTotalPrice = "<h4>$"+SubTotal+"</h4>";
-        var prdRemove = "";
+    // var table = $('table[name="checkout-2"]');
+    //     var prodInd = "";
+    // var prodImg = "";
+    // var prdTitle = "";
+    // var prdQty = "";
+    // var prdPrice = "";
+    // var prdTotalPrice = "<strong class='sub-total-label'>SubTotal</strong>";
+    //     var prdRemove = "<strong >US $"+SubTotal+"</strong>";
 
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    // newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
 
-        var table = $('table[name="checkout"]');
-        var prodInd = "";
-    var prodImg = "";
-    var prdTitle = "";
-    var prdQty = "";
-    var prdPrice = "<h4>Shipping</h4>";
-    var prdTotalPrice = "<h4>$"+Shipping+"</h4>";
-        var prdRemove = "";
+    //     var table = $('table[name="checkout-2"]');
+    //     var prodInd = "";
+    // var prodImg = "";
+    // var prdTitle = "";
+    // var prdQty = "";
+    // var prdPrice = "";
+    // var prdTotalPrice = "<strong class='shipping-label'>Shipping</strong>";
+    //     var prdRemove = "<strong >US $"+Shipping+"</strong>";
 
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    // newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
 
     Total = SubTotal + Shipping;
-var table = $('table[name="checkout"]');
-        var prodInd = "";
-    var prodImg = "";
-    var prdTitle = "";
-    var prdQty = "";
-    var prdPrice = "<h4>Total</h4>";
-    var prdTotalPrice = "<h4>$"+Total+"</h4>";
-    var prdRemove = "";
 
-    newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    $('#sub-total-value').html("US $"+SubTotal);
+    $('#shipping-value').html("US $"+Shipping);
+    $('#total-value').html("US $"+Total);
+
+    $("#cartSummaryTable").css({"display":"table"});
+
+// var table = $('table[name="checkout-2"]');
+//         var prodInd = "";
+//     var prodImg = "";
+//     var prdTitle = "";
+//     var prdQty = "";
+//     var prdPrice = "";
+//     var prdTotalPrice = "<strong class='total-label'>Total</strong>";
+//     var prdRemove = "<strong >US $"+Total+"</strong>";
+
+//     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
 
 
 
@@ -351,8 +355,8 @@ $(".cart-section").click(function(){
 
 
 if(window.sessionStorage["itemscart"].length>0){
-    // var url = "file:///C:/github/ceramic/checkout/checkout.html";
-    var url = "https://nirupanm.github.io/Ceramic/checkout/checkout.html";
+     var url = "file:///C:/github/ceramic/checkout/checkout.html";
+    //var url = "https://nirupanm.github.io/Ceramic/checkout/checkout.html";
 window.location = url;
 window.location.replace (url);
     // history.pushState({}, "", "file:///C:/github/ceramic/");
@@ -385,28 +389,49 @@ window.location.replace (url);
 
 });
 
-// var table = $('table[name="checkout"]');
+var table = $('table[name="checkout"]');
 
-//     var prodInd = "<div>1.</div>";
-//     var prodImg = "<img src='../ceramicphotos/pic1.jpg' class='checkout-img' />";
-//     var prdTitle = "<div>Product #1</div>";
-//     var prdQty = "<div>1</div>";
-//     var prdPrice = "<strong>$25</strong>";
-//     var prdTotalPrice = "<strong>$25</strong>";
-//     var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></td>'";
+    // var prodInd = "<div class='checkout-index-col'>1)</div>";
+    // var prodImg = "<img src='../ceramicphotos/pic1.jpg' class='checkout-img checkout-img-test' />";
+    // var prdTitle = "<div class='checkout-prod-image-title'>Test #1</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+    // var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+    // var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+    // var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+    // var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
 
-//     newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+    // newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
 
-//     var table = $('table[name="checkout"]');
-//         var prodInd = "<div>2.</div>";
-//     var prodImg = "<img src='../ceramicphotos/pic2.jpg' class='checkout-img' />";
-//     var prdTitle = "<div>Product #2</div>";
-//     var prdQty = "<div>1</div>";
-//     var prdPrice = "<strong>$25</strong>";
-//     var prdTotalPrice = "<strong>$25</strong>";
-//         var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span> </button></td>'";
+// var prodImg = "<img src='../ceramicphotos/pic1.jpg' class='checkout-img checkout-img-test' />";
+//     var prdTitle = "<div class='checkout-prod-image-title'>Test #1</div><div class='checkout-prod-image-desc'>Product Desc </div>";
+//     var prdQty = "<div class='checkout-qty-col'>Quantity: 1</div>";
+//     var prdPrice = "<div class='checkout-price-col'>Price: US $25</div>";
+//     var prdTotalPrice = "<div class='checkout-total-price-col'>Total: US $25</div>";
+//     var prdRemove = "<button type='button' class='btn btn-danger checkout-close'><span class='glyphicon glyphicon-remove'></span></button></td>'";
 
-//     newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+//     newRow(table,[prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+
+    // var table = $('table[name="checkout"]');
+    //     var prodInd = "<div>2.</div>";
+    // var prodImg = "<img src='../ceramicphotos/pic2.jpg' class='checkout-img' />";
+    // var prdTitle = "<div>Product #2</div>";
+    // var prdQty = "<div>1</div>";
+    // var prdPrice = "<strong>$25</strong>";
+    // var prdTotalPrice = "<strong>$25</strong>";
+    //     var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span> </button></td>'";
+
+    // newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
+
+
+    // var table = $('table[name="checkout"]');
+    //     var prodInd = "<div>2.</div>";
+    // var prodImg = "<img src='../ceramicphotos/pic2.jpg' class='checkout-img' />";
+    // var prdTitle = "<div>Product #2</div>";
+    // var prdQty = "<div>1</div>";
+    // var prdPrice = "<strong>$25</strong>";
+    // var prdTotalPrice = "<strong>$25</strong>";
+    //     var prdRemove = "<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span> </button></td>'";
+
+    // newRow(table,[prodInd,prodImg,prdTitle,prdQty,prdPrice,prdTotalPrice,prdRemove]);
 
 
 //     var table = $('table[name="checkout"]');
