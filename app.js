@@ -18,9 +18,9 @@ $("#form-save").click(function(){
 
 var messageString = $('#name_input').val();
 
-$('#mail-message').val("\nCustomer Details:"+"\n"+"Name:"+$('#name_input').val()+"\n"+"Email:"$('#email_input').val()+"\n"+"Phone:"+$('#phone_input').val()+"\n"+"Address:"+$('#address_input').val()
 
-"\nOrdered Items");
+
+('#mail-message').val("\nCustomer Details:"+"\n"+"Name:"+$('#name_input').val()+"\n"+"Email:"+$('#email_input').val()+"\n"+"Phone:"+$('#phone_input').val()+"\n"+"Address:"+$('#address_input').val());
 
 
 
