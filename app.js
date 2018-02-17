@@ -101,9 +101,9 @@ var cartArray = window.sessionStorage["itemscart"];
      submit_total = submit_sub_total+submit_shipping;
 
 
-    productString = "\nSub Total:"+submit_sub_total;
-        productString = "\nShipping:"+submit_shipping;
-            productString = "\nTotal:"+submit_total;
+    productString = productString+"\nSub Total: US $"+submit_sub_total;
+        productString = productString+"\nShipping: US $"+submit_shipping;
+            productString = productString+"\nTotal: US $"+submit_total;
 
 
 
