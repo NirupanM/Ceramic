@@ -13,6 +13,18 @@ $(document).ready(function() {
 // });
 
 
+$("#mail-message").click(function(){
+
+
+var messageString = $('#name_input').val();
+
+$('#mail-message').val(messageString); 
+
+
+});
+
+
+
 
 
     // window.sessionStorage["fieldval"] = field.value;
