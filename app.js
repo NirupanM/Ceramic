@@ -12,8 +12,102 @@ $(document).ready(function() {
 
 // });
 
+$("#proceed-btn").click(function(){
+
+var url = "https://nirupanm.github.io/Ceramic/checkout/form-submission.html";
+window.location = url;
+window.location.replace (url);
+
+});
+
 
 $("#form-save").click(function(){
+
+
+var cartArray = window.sessionStorage["itemscart"];
+    
+    var submit_sub_total =0;
+    var submit_shipping = 8;
+    var submit_total = 0;
+    var productString="\nProducts placed for order:";
+    var splitString = cartArray.split(",");
+    console.log(splitString);
+    cartArray = splitString;
+    //for (var i = 0; i < cartArray.length; i++) {
+      for( var i in cartArray){
+      console.log(cartArray[i]+":"+i);  
+
+    //console.log(cartArray[i]+":"+i);
+    if(cartArray[i]=="1"){
+        productString = productString+"\nProduct Name:Product 1"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+
+    if(cartArray[i]=="2"){
+        productString = productString+"\nProduct Name:Product 2"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+
+    if(cartArray[i]=="3"){
+        productString = productString+"\nProduct Name:Product 3"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+
+    if(cartArray[i]=="4"){
+        productString = productString+"\nProduct Name:Product 4"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+
+    if(cartArray[i]=="5"){
+        productString = productString+"\nProduct Name:Product 5"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+    if(cartArray[i]=="6"){
+        productString = productString+"\nProduct Name:Product 6"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+    if(cartArray[i]=="7"){
+        productString = productString+"\nProduct Name:Product 7"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+    if(cartArray[i]=="8"){
+        productString = productString+"\nProduct Name:Product 8"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+    if(cartArray[i]=="9"){
+        productString = productString+"\nProduct Name:Product 9"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+    if(cartArray[i]=="10"){
+        productString = productString+"\nProduct Name:Product 10"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+    if(cartArray[i]=="11"){
+        productString = productString+"\nProduct Name:Product 11"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+    if(cartArray[i]=="12"){
+        productString = productString+"\nProduct Name:Product 12"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+    if(cartArray[i]=="13"){
+        productString = productString+"\nProduct Name:Product 13"+"\nPrice:US$25";
+        submit_sub_total = submit_sub_total + 25;
+    }
+    }
+
+
+
+     submit_total = submit_sub_total+submit_shipping;
+
+
+    productString = "\nSub Total:"+submit_sub_total;
+        productString = "\nShipping:"+submit_shipping;
+            productString = "\nTotal:"+submit_total;
+
+
+
+  
 
 
 var messageString = $('#name_input').val();
@@ -21,7 +115,11 @@ var messageString = $('#name_input').val();
 
 ('#mail-message').val("\nCustomer Details:"+"\n"+"Name:"+$('#name_input').val()+"\n"+"Email:"+$('#email_input').val()+"\n"+"Phone:"+$('#phone_input').val()+"\n"+"Address:"+$('#address_input').val());
 
+('mail-message').val(('#mail-message').val()+productString);
 
+
+
+ 
 
 //func close
 });
@@ -876,6 +974,7 @@ items_cart.push("13");
 console.log(items_cart);
 window.sessionStorage["itemscart"] = items_cart;
 });
+
 
 
 
